@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.14)
+project(MySDL2Project)
+
+# SDL2 경로 설정
+set(SDL2_DIR "${CMAKE_SOURCE_DIR}/SDL2/cmake") # SDL2의 cmake 경로 지정
+set(SDL2_IMAGE_DIR "${CMAKE_SOURCE_DIR}/SDL2_image/cmake") # SDL2_image의 cmake 경로 지정
+
+list(APPEND CMAKE_PREFIX_PATH "${SDL2_IMAGE_DIR}")
+
+# 디버깅용 메시지 출력
+message(STATUS "SDL2_IMAGE_DIR is set to: ${SDL2_IMAGE_DIR}")
+
+# SDL2 찾기
+find_package(SDL2 REQUIRED)
+find_package(SDL2_image REQUIRED)
+
+# SDL2 include 및 라이브러리 경로 추가
+include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
+link_directories("${CMAKE_SOURCE_DIR}/SDL2/lib/x64" "${CMAKE_SOURCE_DIR}/SDL2_image/lib/x64") 
+# 실행 파일 생성
+add_executable(MySDL2Project src/main.cpp)
+
+# SDL2 라이브러리 연결
+target_link_libraries(MySDL2Project ${SDL2_LIBRARIES} SDL2_image::SDL2_image)

@@ -1,0 +1,3 @@
+C:/Users/moses/Downloads/TestCmake/build/CMakeFiles/MySDL2Project.dir
+C:/Users/moses/Downloads/TestCmake/build/CMakeFiles/edit_cache.dir
+C:/Users/moses/Downloads/TestCmake/build/CMakeFiles/rebuild_cache.dir
