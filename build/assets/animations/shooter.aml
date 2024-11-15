@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animations>
+    <sequence id="idle" frameCount="11" speed="50" width="512" height="512">
+        <frame texture ="shooter_idle0"/>
+        <frame texture ="shooter_idle1"/>
+        <frame texture ="shooter_idle2"/>
+        <frame texture ="shooter_idle3"/>
+        <frame texture ="shooter_idle4"/>
+        <frame texture ="shooter_idle5"/>
+        <frame texture ="shooter_idle6"/>
+        <frame texture ="shooter_idle7"/>
+        <frame texture ="shooter_idle8"/>
+        <frame texture ="shooter_idle9"/>
+        <frame texture ="shooter_idle10"/>
+        <frame texture ="shooter_idle12"/>
+    </sequence>
+
+     <sequence id="run" frameCount="8" speed="80" width="512" height="512">
+        <frame texture ="shooter_run0"/>
+        <frame texture ="shooter_run1"/>
+        <frame texture ="shooter_run2"/>
+        <frame texture ="shooter_run3"/>
+        <frame texture ="shooter_run4"/>
+        <frame texture ="shooter_run5"/>
+        <frame texture ="shooter_run6"/>
+        <frame texture ="shooter_run7"/>
+    </sequence> 
+
+    <sequence id="run_shoot" frameCount="8" speed="50" width="512" height="512">
+        <frame texture ="shooter_run_shoot0"/>
+        <frame texture ="shooter_run_shoot1"/>
+        <frame texture ="shooter_run_shoot2"/>
+        <frame texture ="shooter_run_shoot3"/>
+        <frame texture ="shooter_run_shoot4"/>
+        <frame texture ="shooter_run_shoot5"/>
+        <frame texture ="shooter_run_shoot6"/>
+        <frame texture ="shooter_run_shoot7"/>
+    </sequence>
+
+     <sequence id="crouch" frameCount="1" speed="50" width="512" height="512">
+        <frame texture ="shooter_crouch0"/>
+    </sequence>
+
+    <sequence id="crouch_shoot" frameCount="2" speed="50" width="512" height="512">
+        <frame texture ="shooter_crouch_shoot0"/>
+        <frame texture ="shooter_crouch_shoot1"/>
+    </sequence>
+
+    <sequence id="idle_shoot" frameCount="2" speed="50" width="512" height="512">
+        <frame texture ="shooter_idle_shoot0"/>
+        <frame texture ="shooter_idle_shoot1"/>
+    </sequence>
+
+    <sequence id="fall_shoot" frameCount="2" speed="50" width="512" height="512">
+        <frame texture ="shooter_fall_shoot0"/>
+        <frame texture ="shooter_fall_shoot1"/>
+    </sequence>
+
+    <sequence id="jump_shoot" frameCount="2" speed="50" width="512" height="512">
+        <frame texture ="shooter_jump_shoot0"/>
+        <frame texture ="shooter_jump_shoot1"/>
+    </sequence>
+
+    <sequence id="shoot_up" frameCount="2" speed="50" width="512" height="512">
+        <frame texture ="shooter_shoot_up0"/>
+        <frame texture ="shooter_shoot_up1"/>
+    </sequence>
+
+    <sequence id="fall" frameCount="1" speed="1" width="512" height="512">
+        <frame texture ="shooter_fall0"/>
+    </sequence>
+
+    <sequence id="jump" frameCount="1" speed="1" width="512" height="512">
+        <frame texture ="shooter_jump0"/>
+    </sequence>
+
+    <sequence id="death" frameCount="5" speed="50" width="512" height="512">
+        <frame texture ="shooter_death0"/>
+        <frame texture ="shooter_death1"/>
+        <frame texture ="shooter_death2"/>
+        <frame texture ="shooter_death3"/>
+        <frame texture ="shooter_death4"/>
+    </sequence>
+</animations>

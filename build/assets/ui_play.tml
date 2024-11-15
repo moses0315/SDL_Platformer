@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+    <texture id="pause_n" source="assets/textures/button/pause_normal.png"/>
+    <texture id="pause_h" source="assets/textures/button/pause_hover.png"/>
+    <texture id="pause_p" source="assets/textures/button/pause_pressed.png"/>
+
+    <texture id="set_n" source="assets/textures/button/settings_normal.png"/>
+    <texture id="set_h" source="assets/textures/button/settings_hover.png"/>
+    <texture id="set_p" source="assets/textures/button/settings_pressed.png"/>
+
+    <texture id="home_n" source="assets/textures/button/home_normal.png"/>
+    <texture id="home_h" source="assets/textures/button/home_hover.png"/>
+    <texture id="home_p" source="assets/textures/button/home_pressed.png"/>   
+</textures>
+
+ 

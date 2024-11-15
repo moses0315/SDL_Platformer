@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+    <texture id="play_n" source="assets/textures/button/play_normal.png"/>
+    <texture id="play_h" source="assets/textures/button/play_hover.png"/>
+    <texture id="play_p" source="assets/textures/button/play_pressed.png"/>  
+
+    <texture id="opt_n" source="assets/textures/button/options_normal.png"/>
+    <texture id="opt_h" source="assets/textures/button/options_hover.png"/>
+    <texture id="opt_p" source="assets/textures/button/options_pressed.png"/> 
+
+    <texture id="quit_n" source="assets/textures/button/quit_normal.png"/>
+    <texture id="quit_h" source="assets/textures/button/quit_hover.png"/>
+    <texture id="quit_p" source="assets/textures/button/quit_pressed.png"/>     
+</textures>
+
+ 

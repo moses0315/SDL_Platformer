@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+    <texture id="player_run" source="assets/textures/player/Run.png"/>
+    <texture id="player_idle" source="assets/textures/player/Idle.png"/>
+    <texture id="player_jump" source="assets/textures/player/Jump.png"/>
+    <texture id="player_fall" source="assets/textures/player/Fall.png"/>
+    <texture id="player_crouch" source="assets/textures/player/Crouch.png"/>
+    <texture id="player_attack" source="assets/textures/player/Attack.png"/>  
+    
+    <texture id="objects" source="assets/maps/objects.png"/>
+    <texture id="Jungle_terrain" source="assets/maps/Jungle_terrain.png"/>    
+
+    <texture id="sky" source="assets/textures/sky/sky.png"/>
+    <texture id="night_sky" source="assets/textures/sky/night_sky.png"/>
+
+    <texture id="cloud" source="assets/textures/clouds/cloud.png"/>
+    <texture id="cloud1" source="assets/textures/clouds/cloud1.png"/>
+    <texture id="cloud2" source="assets/textures/clouds/cloud2.png"/>
+    <texture id="cloud_night" source="assets/textures/clouds/cloud_night.png"/>
+
+    <texture id="montain1" source="assets/textures/montains/montain1.png"/>
+    <texture id="montain2" source="assets/textures/montains/montain2.png"/>
+    
+    <texture id="pine1" source="assets/textures/pines/pine1.png"/>
+    <texture id="pine2" source="assets/textures/pines/pine2.png"/>
+    <texture id="pine3" source="assets/textures/pines/pine3.png"/>
+    <texture id="pine2_night" source="assets/textures/pines/pine2_night.png"/>
+
+    <texture id="tree1" source="assets/textures/trees/tree1.png"/>
+    <texture id="tree2" source="assets/textures/trees/tree2.png"/>
+    <texture id="tree3" source="assets/textures/trees/tree3.png"/>
+    <texture id="tree4" source="assets/textures/trees/tree4.png"/>
+    <texture id="tree5" source="assets/textures/trees/tree5.png"/>
+    <texture id="tree6" source="assets/textures/trees/tree6.png"/>
+    <texture id="tree7" source="assets/textures/trees/tree7.png"/>
+    <texture id="tree_night" source="assets/textures/trees/tree_night.png"/>
+
+    <texture id="moon" source="assets/textures/stars/moon.png"/>
+    <texture id="sun" source="assets/textures/stars/sun.png"/>
+
+    <texture id="rain1" source="assets/textures/rain/rain1.png"/>
+    <texture id="rain2" source="assets/textures/rain/rain2.png"/>
+
+    <texture id="snow1" source="assets/textures/snow/snow1.png"/>
+    <texture id="snow2" source="assets/textures/snow/snow2.png"/>
+    <texture id="snow3" source="assets/textures/snow/snow3.png"/>
+
+    <texture id="dust1" source="assets/textures/dust/dust1.png"/>
+    <texture id="dust2" source="assets/textures/dust/dust2.png"/>
+    <texture id="dust3" source="assets/textures/dust/dust3.png"/>
+
+    <texture id="ligth1" source="assets/textures/ligthing/ligth1.png"/>
+    <texture id="ligth2" source="assets/textures/ligthing/ligth2.png"/>
+    <texture id="ligth3" source="assets/textures/ligthing/ligth3.png"/>  
+
+    <texture id="shooter_idle0" source="assets/textures/shooter/idle/idle_00.png"/>
+    <texture id="shooter_idle1" source="assets/textures/shooter/idle/idle_01.png"/>
+    <texture id="shooter_idle2" source="assets/textures/shooter/idle/idle_02.png"/>
+    <texture id="shooter_idle3" source="assets/textures/shooter/idle/idle_03.png"/>
+    <texture id="shooter_idle4" source="assets/textures/shooter/idle/idle_04.png"/>
+    <texture id="shooter_idle5" source="assets/textures/shooter/idle/idle_05.png"/>
+    <texture id="shooter_idle6" source="assets/textures/shooter/idle/idle_06.png"/>
+    <texture id="shooter_idle7" source="assets/textures/shooter/idle/idle_07.png"/>
+    <texture id="shooter_idle8" source="assets/textures/shooter/idle/idle_08.png"/>
+    <texture id="shooter_idle9" source="assets/textures/shooter/idle/idle_09.png"/>
+    <texture id="shooter_idle10" source="assets/textures/shooter/idle/idle_10.png"/>
+    <texture id="shooter_idle11" source="assets/textures/shooter/idle/idle_11.png"/>
+
+    <texture id="shooter_run0" source="assets/textures/shooter/run/run_0.png"/>
+    <texture id="shooter_run1" source="assets/textures/shooter/run/run_1.png"/>
+    <texture id="shooter_run2" source="assets/textures/shooter/run/run_2.png"/>
+    <texture id="shooter_run3" source="assets/textures/shooter/run/run_3.png"/>
+    <texture id="shooter_run4" source="assets/textures/shooter/run/run_4.png"/>
+    <texture id="shooter_run5" source="assets/textures/shooter/run/run_5.png"/>
+    <texture id="shooter_run6" source="assets/textures/shooter/run/run_6.png"/>
+    <texture id="shooter_run7" source="assets/textures/shooter/run/run_7.png"/>
+
+    <texture id="shooter_run_shoot0" source="assets/textures/shooter/runShoot/run_shoot_0.png"/>
+    <texture id="shooter_run_shoot1" source="assets/textures/shooter/runShoot/run_shoot_1.png"/>
+    <texture id="shooter_run_shoot2" source="assets/textures/shooter/runShoot/run_shoot_2.png"/>
+    <texture id="shooter_run_shoot3" source="assets/textures/shooter/runShoot/run_shoot_3.png"/>
+    <texture id="shooter_run_shoot4" source="assets/textures/shooter/runShoot/run_shoot_4.png"/>
+    <texture id="shooter_run_shoot5" source="assets/textures/shooter/runShoot/run_shoot_5.png"/>
+    <texture id="shooter_run_shoot6" source="assets/textures/shooter/runShoot/run_shoot_6.png"/>
+    <texture id="shooter_run_shoot7" source="assets/textures/shooter/runShoot/run_shoot_7.png"/>
+
+    <texture id="shooter_crouch0" source="assets/textures/shooter/crouch/crouch_0.png"/>
+    
+    <texture id="shooter_fall0" source="assets/textures/shooter/fall/fall_0.png"/>
+
+    <texture id="shooter_jump0" source="assets/textures/shooter/jump/jump_0.png"/>
+
+    <texture id="shooter_jump_shoot0" source="assets/textures/shooter/jumpShoot/jump_shoot_0.png"/>
+    <texture id="shooter_jump_shoot1" source="assets/textures/shooter/jumpShoot/jump_shoot_1.png"/>
+
+    <texture id="shooter_fall_shoot0" source="assets/textures/shooter/fallShoot/fall_shoot_0.png"/>
+    <texture id="shooter_fall_shoot1" source="assets/textures/shooter/fallShoot/fall_shoot_1.png"/>
+
+    <texture id="shooter_crouch_shoot0" source="assets/textures/shooter/crouchShoot/crouch_shoot_0.png"/>
+    <texture id="shooter_crouch_shoot1" source="assets/textures/shooter/crouchShoot/crouch_shoot_1.png"/>
+
+    <texture id="shooter_idle_shoot0" source="assets/textures/shooter/idleShoot/idle_shoot_0.png"/>
+    <texture id="shooter_idle_shoot1" source="assets/textures/shooter/idleShoot/idle_shoot_1.png"/>
+
+    <texture id="shooter_shoot_up0" source="assets/textures/shooter/shootUp/shoot_up_0.png"/>
+    <texture id="shooter_shoot_up1" source="assets/textures/shooter/shootUp/shoot_up_1.png"/>
+
+    <texture id="shooter_death0" source="assets/textures/shooter/death/death_0.png"/>
+    <texture id="shooter_death1" source="assets/textures/shooter/death/death_1.png"/>
+    <texture id="shooter_death2" source="assets/textures/shooter/death/death_2.png"/>
+    <texture id="shooter_death3" source="assets/textures/shooter/death/death_3.png"/>
+    <texture id="shooter_death4" source="assets/textures/shooter/death/death_4.png"/>
+</textures>
+
+ 

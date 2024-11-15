@@ -1,1 +1,1 @@
--isystem C:/Users/moses/Downloads/TestCmake/SDL2/cmake/../include -isystem C:/Users/moses/Downloads/TestCmake/SDL2_image/cmake/../include
+-IC:/Users/moses/Documents/SDL_Platformer/src/Vendor/TinyXML -isystem C:/Users/moses/Documents/SDL_Platformer/SDL2/cmake/../include -isystem C:/Users/moses/Documents/SDL_Platformer/SDL2_image/cmake/../include -isystem C:/Users/moses/Documents/SDL_Platformer/SDL2_mixer/cmake/../include -isystem C:/Users/moses/Documents/SDL_Platformer/SDL2_ttf/cmake/../include

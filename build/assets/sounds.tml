@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sounds>    
+    <effect id="hurt" source="assets/sounds/hurt.ogg"/>
+    <effect id="jump" source="assets/sounds/jump.ogg"/>
+    <effect id="item" source="assets/sounds/item.ogg"/>       
+    <effect id="enemy_death" source="assets/sounds/enemy-death.ogg"/>
+    <music id="valley" source="assets/sounds/valley.ogg"/>
+</sounds>
+
+ 
