@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\moses\Downloads\TestCmake
+CMAKE_SOURCE_DIR = C:\Users\moses\Documents\SDL_Platformer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\moses\Downloads\TestCmake\build
+CMAKE_BINARY_DIR = C:\Users\moses\Documents\SDL_Platformer\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moses\Downloads\TestCmake\build\CMakeFiles C:\Users\moses\Downloads\TestCmake\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles C:\Users\moses\Documents\SDL_Platformer\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moses\Downloads\TestCmake\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,173 @@ MySDL2Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/build
 .PHONY : MySDL2Project/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/Animation/Animation.obj: src/Animation/Animation.cpp.obj
+.PHONY : src/Animation/Animation.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/Animation/Animation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj
+.PHONY : src/Animation/Animation.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Animation/Animation.i: src/Animation/Animation.cpp.i
+.PHONY : src/Animation/Animation.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Animation/Animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.i
+.PHONY : src/Animation/Animation.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Animation/Animation.s: src/Animation/Animation.cpp.s
+.PHONY : src/Animation/Animation.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Animation/Animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.s
+.PHONY : src/Animation/Animation.cpp.s
+
+src/Characters/Warrior.obj: src/Characters/Warrior.cpp.obj
+.PHONY : src/Characters/Warrior.obj
+
+# target to build an object file
+src/Characters/Warrior.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj
+.PHONY : src/Characters/Warrior.cpp.obj
+
+src/Characters/Warrior.i: src/Characters/Warrior.cpp.i
+.PHONY : src/Characters/Warrior.i
+
+# target to preprocess a source file
+src/Characters/Warrior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.i
+.PHONY : src/Characters/Warrior.cpp.i
+
+src/Characters/Warrior.s: src/Characters/Warrior.cpp.s
+.PHONY : src/Characters/Warrior.s
+
+# target to generate assembly for a file
+src/Characters/Warrior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.s
+.PHONY : src/Characters/Warrior.cpp.s
+
+src/Core/Engine.obj: src/Core/Engine.cpp.obj
+.PHONY : src/Core/Engine.obj
+
+# target to build an object file
+src/Core/Engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj
+.PHONY : src/Core/Engine.cpp.obj
+
+src/Core/Engine.i: src/Core/Engine.cpp.i
+.PHONY : src/Core/Engine.i
+
+# target to preprocess a source file
+src/Core/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.i
+.PHONY : src/Core/Engine.cpp.i
+
+src/Core/Engine.s: src/Core/Engine.cpp.s
+.PHONY : src/Core/Engine.s
+
+# target to generate assembly for a file
+src/Core/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.s
+.PHONY : src/Core/Engine.cpp.s
+
+src/Graphics/TextureManager.obj: src/Graphics/TextureManager.cpp.obj
+.PHONY : src/Graphics/TextureManager.obj
+
+# target to build an object file
+src/Graphics/TextureManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj
+.PHONY : src/Graphics/TextureManager.cpp.obj
+
+src/Graphics/TextureManager.i: src/Graphics/TextureManager.cpp.i
+.PHONY : src/Graphics/TextureManager.i
+
+# target to preprocess a source file
+src/Graphics/TextureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.i
+.PHONY : src/Graphics/TextureManager.cpp.i
+
+src/Graphics/TextureManager.s: src/Graphics/TextureManager.cpp.s
+.PHONY : src/Graphics/TextureManager.s
+
+# target to generate assembly for a file
+src/Graphics/TextureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.s
+.PHONY : src/Graphics/TextureManager.cpp.s
+
+src/Inputs/Input.obj: src/Inputs/Input.cpp.obj
+.PHONY : src/Inputs/Input.obj
+
+# target to build an object file
+src/Inputs/Input.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj
+.PHONY : src/Inputs/Input.cpp.obj
+
+src/Inputs/Input.i: src/Inputs/Input.cpp.i
+.PHONY : src/Inputs/Input.i
+
+# target to preprocess a source file
+src/Inputs/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.i
+.PHONY : src/Inputs/Input.cpp.i
+
+src/Inputs/Input.s: src/Inputs/Input.cpp.s
+.PHONY : src/Inputs/Input.s
+
+# target to generate assembly for a file
+src/Inputs/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.s
+.PHONY : src/Inputs/Input.cpp.s
+
+src/Main.obj: src/Main.cpp.obj
+.PHONY : src/Main.obj
+
+# target to build an object file
+src/Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj
+.PHONY : src/Main.cpp.obj
+
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
+
+# target to preprocess a source file
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
+
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
+
+# target to generate assembly for a file
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
+
+src/Timer/Timer.obj: src/Timer/Timer.cpp.obj
+.PHONY : src/Timer/Timer.obj
+
+# target to build an object file
+src/Timer/Timer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj
+.PHONY : src/Timer/Timer.cpp.obj
+
+src/Timer/Timer.i: src/Timer/Timer.cpp.i
+.PHONY : src/Timer/Timer.i
+
+# target to preprocess a source file
+src/Timer/Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.i
+.PHONY : src/Timer/Timer.cpp.i
+
+src/Timer/Timer.s: src/Timer/Timer.cpp.s
+.PHONY : src/Timer/Timer.s
+
+# target to generate assembly for a file
+src/Timer/Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDL2Project.dir\build.make CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.s
+.PHONY : src/Timer/Timer.cpp.s
 
 # Help Target
 help:
@@ -161,9 +305,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MySDL2Project
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/Animation/Animation.obj
+	@echo ... src/Animation/Animation.i
+	@echo ... src/Animation/Animation.s
+	@echo ... src/Characters/Warrior.obj
+	@echo ... src/Characters/Warrior.i
+	@echo ... src/Characters/Warrior.s
+	@echo ... src/Core/Engine.obj
+	@echo ... src/Core/Engine.i
+	@echo ... src/Core/Engine.s
+	@echo ... src/Graphics/TextureManager.obj
+	@echo ... src/Graphics/TextureManager.i
+	@echo ... src/Graphics/TextureManager.s
+	@echo ... src/Inputs/Input.obj
+	@echo ... src/Inputs/Input.i
+	@echo ... src/Inputs/Input.s
+	@echo ... src/Main.obj
+	@echo ... src/Main.i
+	@echo ... src/Main.s
+	@echo ... src/Timer/Timer.obj
+	@echo ... src/Timer/Timer.i
+	@echo ... src/Timer/Timer.s
 .PHONY : help
 
 

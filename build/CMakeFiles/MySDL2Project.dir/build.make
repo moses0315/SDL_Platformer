@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\moses\Downloads\TestCmake
+CMAKE_SOURCE_DIR = C:\Users\moses\Documents\SDL_Platformer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\moses\Downloads\TestCmake\build
+CMAKE_BINARY_DIR = C:\Users\moses\Documents\SDL_Platformer\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MySDL2Project.dir/depend.make
@@ -71,37 +71,141 @@ include CMakeFiles/MySDL2Project.dir/flags.make
 CMakeFiles/MySDL2Project.dir/codegen:
 .PHONY : CMakeFiles/MySDL2Project.dir/codegen
 
-CMakeFiles/MySDL2Project.dir/src/main.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
-CMakeFiles/MySDL2Project.dir/src/main.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
-CMakeFiles/MySDL2Project.dir/src/main.cpp.obj: C:/Users/moses/Downloads/TestCmake/src/main.cpp
-CMakeFiles/MySDL2Project.dir/src/main.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Downloads\TestCmake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MySDL2Project.dir/src/main.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/main.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\main.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\main.cpp.obj -c C:\Users\moses\Downloads\TestCmake\src\main.cpp
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Animation/Animation.cpp
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Animation\Animation.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Animation\Animation.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Animation\Animation.cpp
 
-CMakeFiles/MySDL2Project.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/main.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Downloads\TestCmake\src\main.cpp > CMakeFiles\MySDL2Project.dir\src\main.cpp.i
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Animation\Animation.cpp > CMakeFiles\MySDL2Project.dir\src\Animation\Animation.cpp.i
 
-CMakeFiles/MySDL2Project.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/main.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Downloads\TestCmake\src\main.cpp -o CMakeFiles\MySDL2Project.dir\src\main.cpp.s
+CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Animation\Animation.cpp -o CMakeFiles\MySDL2Project.dir\src\Animation\Animation.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Characters/Warrior.cpp
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Characters\Warrior.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Characters\Warrior.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Characters\Warrior.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Characters\Warrior.cpp > CMakeFiles\MySDL2Project.dir\src\Characters\Warrior.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Characters\Warrior.cpp -o CMakeFiles\MySDL2Project.dir\src\Characters\Warrior.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Core/Engine.cpp
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Core\Engine.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Core\Engine.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Core\Engine.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Core\Engine.cpp > CMakeFiles\MySDL2Project.dir\src\Core\Engine.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Core\Engine.cpp -o CMakeFiles\MySDL2Project.dir\src\Core\Engine.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Graphics/TextureManager.cpp
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Graphics\TextureManager.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Graphics\TextureManager.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Graphics\TextureManager.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Graphics\TextureManager.cpp > CMakeFiles\MySDL2Project.dir\src\Graphics\TextureManager.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Graphics\TextureManager.cpp -o CMakeFiles\MySDL2Project.dir\src\Graphics\TextureManager.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Inputs/Input.cpp
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Inputs\Input.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Inputs\Input.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Inputs\Input.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Inputs\Input.cpp > CMakeFiles\MySDL2Project.dir\src\Inputs\Input.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Inputs\Input.cpp -o CMakeFiles\MySDL2Project.dir\src\Inputs\Input.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Main.cpp
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Main.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Main.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Main.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Main.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Main.cpp > CMakeFiles\MySDL2Project.dir\src\Main.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Main.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Main.cpp -o CMakeFiles\MySDL2Project.dir\src\Main.cpp.s
+
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj: CMakeFiles/MySDL2Project.dir/flags.make
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj: CMakeFiles/MySDL2Project.dir/includes_CXX.rsp
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj: C:/Users/moses/Documents/SDL_Platformer/src/Timer/Timer.cpp
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj: CMakeFiles/MySDL2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj -MF CMakeFiles\MySDL2Project.dir\src\Timer\Timer.cpp.obj.d -o CMakeFiles\MySDL2Project.dir\src\Timer\Timer.cpp.obj -c C:\Users\moses\Documents\SDL_Platformer\src\Timer\Timer.cpp
+
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\moses\Documents\SDL_Platformer\src\Timer\Timer.cpp > CMakeFiles\MySDL2Project.dir\src\Timer\Timer.cpp.i
+
+CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\moses\Documents\SDL_Platformer\src\Timer\Timer.cpp -o CMakeFiles\MySDL2Project.dir\src\Timer\Timer.cpp.s
 
 # Object files for target MySDL2Project
 MySDL2Project_OBJECTS = \
-"CMakeFiles/MySDL2Project.dir/src/main.cpp.obj"
+"CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj" \
+"CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj"
 
 # External object files for target MySDL2Project
 MySDL2Project_EXTERNAL_OBJECTS =
 
-MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/main.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Animation/Animation.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Characters/Warrior.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Core/Engine.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Graphics/TextureManager.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Inputs/Input.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Main.cpp.obj
+MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/src/Timer/Timer.cpp.obj
 MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/build.make
-MySDL2Project.exe: C:/Users/moses/Downloads/TestCmake/SDL2/cmake/../lib/x64/SDL2main.lib
-MySDL2Project.exe: C:/Users/moses/Downloads/TestCmake/SDL2/cmake/../lib/x64/SDL2.lib
-MySDL2Project.exe: C:/Users/moses/Downloads/TestCmake/SDL2_image/cmake/../lib/x64/SDL2_image.lib
+MySDL2Project.exe: C:/Users/moses/Documents/SDL_Platformer/SDL2/cmake/../lib/x64/SDL2main.lib
+MySDL2Project.exe: C:/Users/moses/Documents/SDL_Platformer/SDL2/cmake/../lib/x64/SDL2.lib
+MySDL2Project.exe: C:/Users/moses/Documents/SDL_Platformer/SDL2_image/cmake/../lib/x64/SDL2_image.lib
+MySDL2Project.exe: C:/Users/moses/Documents/SDL_Platformer/SDL2_mixer/cmake/../lib/x64/SDL2_mixer.lib
+MySDL2Project.exe: C:/Users/moses/Documents/SDL_Platformer/SDL2_ttf/cmake/../lib/x64/SDL2_ttf.lib
 MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/linkLibs.rsp
 MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/objects1.rsp
 MySDL2Project.exe: CMakeFiles/MySDL2Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\moses\Downloads\TestCmake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MySDL2Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MySDL2Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MySDL2Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +217,6 @@ CMakeFiles/MySDL2Project.dir/clean:
 .PHONY : CMakeFiles/MySDL2Project.dir/clean
 
 CMakeFiles/MySDL2Project.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\moses\Downloads\TestCmake C:\Users\moses\Downloads\TestCmake C:\Users\moses\Downloads\TestCmake\build C:\Users\moses\Downloads\TestCmake\build C:\Users\moses\Downloads\TestCmake\build\CMakeFiles\MySDL2Project.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\moses\Documents\SDL_Platformer C:\Users\moses\Documents\SDL_Platformer C:\Users\moses\Documents\SDL_Platformer\build C:\Users\moses\Documents\SDL_Platformer\build C:\Users\moses\Documents\SDL_Platformer\build\CMakeFiles\MySDL2Project.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MySDL2Project.dir/depend
 

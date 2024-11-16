@@ -1,24 +1,58 @@
 cmake_minimum_required(VERSION 3.14)
 project(MySDL2Project)
 
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,--subsystem,console")
+#set(CMAKE_EXE_LINKER_FLAGS "-Wl,--subsystem,windows")
+
+# 소스 파일 자동 탐색 (.cpp 파일만)
+file(GLOB_RECURSE SOURCES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+
+# 실행 파일 생성
+add_executable(MySDL2Project ${SOURCES})
+# 소스 디렉터리와 모든 하위 디렉터리 포함
+set(INCLUDE_DIRS ${CMAKE_SOURCE_DIR}/src)
+
+# GLOB으로 상위 디렉터리의 하위 폴더 탐색
+file(GLOB SUBDIRS RELATIVE ${CMAKE_SOURCE_DIR}/src ${CMAKE_SOURCE_DIR}/src/*)
+
+message(STATUS "Header directories found by GLOB:")
+foreach(SUBDIR ${SUBDIRS})
+    message(STATUS "${CMAKE_SOURCE_DIR}/src/${SUBDIR}")
+    if(IS_DIRECTORY ${CMAKE_SOURCE_DIR}/src/${SUBDIR})
+        list(APPEND INCLUDE_DIRS ${CMAKE_SOURCE_DIR}/src/${SUBDIR})
+    endif()
+endforeach()
+
+# 추가적으로 필요한 디렉터리 명시적으로 추가
+
+# include 디렉터리 설정
+include_directories(${INCLUDE_DIRS})
+
+message(STATUS "Include directories: ${INCLUDE_DIRS}")
+
+
+
 # SDL2 경로 설정
 set(SDL2_DIR "${CMAKE_SOURCE_DIR}/SDL2/cmake") # SDL2의 cmake 경로 지정
 set(SDL2_IMAGE_DIR "${CMAKE_SOURCE_DIR}/SDL2_image/cmake") # SDL2_image의 cmake 경로 지정
+set(SDL2_MIXER_DIR "${CMAKE_SOURCE_DIR}/SDL2_mixer/cmake")  # SDL2_mixer의 cmake 경로 지정
+set(SDL2_TTF_DIR "${CMAKE_SOURCE_DIR}/SDL2_ttf/cmake")  # SDL2_ttf의 cmake 경로 지정
 
+# CMAKE_PREFIX_PATH에 경로 추가
 list(APPEND CMAKE_PREFIX_PATH "${SDL2_IMAGE_DIR}")
-
-# 디버깅용 메시지 출력
-message(STATUS "SDL2_IMAGE_DIR is set to: ${SDL2_IMAGE_DIR}")
+list(APPEND CMAKE_PREFIX_PATH "${SDL2_MIXER_DIR}")
+list(APPEND CMAKE_PREFIX_PATH "${SDL2_TTF_DIR}")
 
 # SDL2 찾기
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
+find_package(SDL2_mixer REQUIRED)
+find_package(SDL2_ttf REQUIRED)
 
-# SDL2 include 및 라이브러리 경로 추가
-include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
-link_directories("${CMAKE_SOURCE_DIR}/SDL2/lib/x64" "${CMAKE_SOURCE_DIR}/SDL2_image/lib/x64") 
-# 실행 파일 생성
-add_executable(MySDL2Project src/main.cpp)
-
-# SDL2 라이브러리 연결
-target_link_libraries(MySDL2Project ${SDL2_LIBRARIES} SDL2_image::SDL2_image)
+# SDL2, SDL2_image, SDL2_mixer 및 SDL2_ttf 라이브러리 연결
+target_link_libraries(MySDL2Project
+    ${SDL2_LIBRARIES}
+    SDL2_image::SDL2_image
+    SDL2_mixer::SDL2_mixer
+    SDL2_ttf::SDL2_ttf
+)
